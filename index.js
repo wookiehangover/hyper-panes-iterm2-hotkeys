@@ -2,8 +2,8 @@ const Mousetrap = require('mousetrap');
 
 const prevTabKey = "Ctrl+Shift+Tab";
 const nextTabKey = "Ctrl+Tab";
-const prevPaneKey = "CmdOrCtrl+Alt+Left";
-const nextPaneKey = "CmdOrCtrl+Alt+Right";
+const prevPaneKey = "Cmd+[";
+const nextPaneKey = "Cmd+]";
 
 const merge = (one, two) => Object.assign({}, one, two);
 const mousetrapify = key => key.replace('CmdOrCtrl', 'mod').toLowerCase();
